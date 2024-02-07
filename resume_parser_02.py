@@ -4,7 +4,7 @@ from spacy.tokens import DocBin
 from tqdm import tqdm
 from sklearn.model_selection import train_test_split
 
-cv_data = json.load(open('E:\\Nandu\\Smartbox\\pythonProject\\Gsm_testing\\CV-Parsing-using-Spacy-3-master\\data\\training\\train_data.json'))
+cv_data = json.load(open('path\to\jsonfile'))
 
 # print(cv_data[0][1])
 

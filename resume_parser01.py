@@ -7,7 +7,7 @@ import sys, fitz, os
 print(spacy.__version__)
 
 warnings.filterwarnings("ignore", category=UserWarning)
-nlp_model = spacy.load('E:\\Nandu\Smartbox\pythonProject\Gsm_testing\output\model-last')
+nlp_model = spacy.load('path\to\model')
 
 # fname = "Nandeesha_emb_2.0.pdf"
 folder_path = 'Resume_folder'
