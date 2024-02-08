@@ -7,7 +7,8 @@ import sys, fitz, os
 print(spacy.__version__)
 
 warnings.filterwarnings("ignore", category=UserWarning)
-nlp_model = spacy.load('path\to\model')
+dir = os.getcwd()
+nlp_model = spacy.load(dir+ '\nlp_model')
 
 # fname = "Nandeesha_emb_2.0.pdf"
 folder_path = 'Resume_folder'
